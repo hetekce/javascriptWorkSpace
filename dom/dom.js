@@ -28,6 +28,9 @@ alert(classItems[1].innerHTML); //value of tree, 1.index önümüze 2. sırada �
 var queryElements =document.querySelectorAll("p.intro1"); //p tagının intro1 classlarrını kaydeder.
 alert(queryElements.length)
 
+//getElementsbyName
+var nameElements = document.getElementsByName("customerName");
+alert(nameElements[0].value); //burada direk input içerisindeki value değeri alınır.
 
 
 
